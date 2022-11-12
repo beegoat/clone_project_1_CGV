@@ -21,7 +21,8 @@ ul, li, a {
 
 .header-wrap{
     width: 100%;
-    margin: auto;
+    height: 112.97px;
+    margin-bottom: 50px;
     justify-content: center;
     border-bottom: solid darkgray 1px;
 }
@@ -502,7 +503,7 @@ ul, li, a {
     display: flex;
 }
 
-.notice-box-left-down-left{code
+.notice-box-left-down-left{
    
 }
 

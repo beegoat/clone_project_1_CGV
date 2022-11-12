@@ -1,0 +1,69 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.header_wrap{
+    width: 100%;
+    height: 161.974px;
+    background-color: aqua;
+}
+
+.header{
+    width: 980px;
+    padding: 30 6 25 5;
+}
+
+.header .top{
+    display: flex;
+    height: 112.97px;
+    border-bottom: 1px solid #eee;
+}
+
+/* .header > div{
+    width: ;
+} */
+
+.header .top img{
+    width: 116.99px;
+    height: 53px;
+}
+
+.header .top span{
+    font-size: 16px;
+    color: #222;
+    letter-spacing: 0.313em;
+    line-height: 1.500em;
+}
+
+
+.chart{
+    background-color: blueviolet;
+    height: 461.946;
+}
+
+.event{
+    background-color: cornflowerblue;
+    height: 328.935px;
+}
+
+.special{
+    background-color: darkgreen;
+    height: 319.787px;
+}
+
+.shop{
+    background-color: yellowgreen;
+    height: 375.952px;
+}
+
+.notice{
+    background-color: teal;
+    height: 237.997px;
+}
+
+.footer{
+    background-color: sandybrown;
+    height: 431.989px;
+}
