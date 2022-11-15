@@ -4,28 +4,34 @@ html, body{
     background-color: #fff;
 }
 
-.header_wrap{
-    width: 100%;
-    height: 161.974px;
-    background-color: aqua;
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .header{
     width: 980px;
-    padding: 30 6 25 5;
+    margin: 0 344.500px;
+    padding: 30px 6px 25px 5px;
 }
 
 .header .top{
     display: flex;
-    height: 112.97px;
-    border-bottom: 1px solid #eee;
+    justify-content: space-between;
+    height: 57px;
 }
 
 /* .header > div{
     width: ;
 } */
 
-.header .top img{
+.header .top .logo >img{
     width: 116.99px;
     height: 53px;
 }
@@ -37,11 +43,123 @@ html, body{
     line-height: 1.500em;
 }
 
+.header .menu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header .menu .hyundai{
+    width: 136px;
+    height: 39px;
+}
+
+.header .menu div img{
+    text-align: center;
+    padding-left: 16px;
+    width: 36px;
+    height: 36px;
+}
+
+.header .menu div{
+    /* text-align: center; */
+    margin-left: 14px;
+    margin-top: 2px;
+}
+
+.header .menu .category{
+    display: block;
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+    /* word-spacing: -10px; */
+}
+
+.header_bottom{
+    /* background-color:yellowgreen; */
+    height: 40px;
+    padding: 5px 0px;
+    text-align: center;
+    border-top: solid 1px #eee;
+}
+
+.header_bottom .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 980px;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+}
+
+.header_bottom .container .left li{
+    display: inline-block;
+    margin-right:48px;
+}
+
+.header_bottom .container .left li:nth-child(3){
+    color:#fb4357;
+}
+
+
+
+.header_bottom .container .search_bar{
+    display: flex;
+    align-items: center;
+}
+
+.header_bottom .container .search_bar img{
+    width: 36px;
+    height: 30px;
+}
+
+.advertise{
+    width: 100%;
+    height: 498px;
+    background-image: url("./img/advertise.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
 
 .chart{
     background-color: blueviolet;
-    height: 461.946;
+    height: 461.946px;
 }
+
+.chart .movie{
+    margin: 0 320px;
+    padding: 50px 30px 60px 30px;
+    width: 980px;
+    height: 100%;
+    background-color: aqua;
+}
+
+.chart .movie .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.chart .movie .top .left div{
+    font-size: 26px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.chart .movie .top .left div:nth-child(2){
+    margin-left: 32px
+}
+
+.chart .movie .top .right a{
+    padding: 4px 32px 4px 15px;
+    
+}
+
 
 .event{
     background-color: cornflowerblue;
